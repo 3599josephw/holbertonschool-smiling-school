@@ -1,0 +1,104 @@
+html {
+  max-width: 100%;
+  margin: auto;
+}
+
+nav img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  background-color: #C271FF !important;
+  border-color: #C271FF !important;
+  border-radius: 20px !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.hero {
+  background-image: url(images/pic_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.hero-top {
+  padding-top: 100px;
+}
+
+.hero-bottom {
+  padding-top: 150px;
+}
+
+.hero h1 {
+  font-size: 82px;
+  font-weight: bold;
+}
+
+.hero h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width:768px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width:576px) {
+ .smile {
+    width: 25%;
+  }
+
+  .logo {
+    align-items: center;
+    width: 80%;
+  }
+}
+
+.quotes {
+  background-color: #C271FF;
+  padding: 50px;
+}
+
+.quotes img {
+  padding-right: 20px;
+}
+
+.quotes-slide {
+  padding-left: 10%;
+  padding-right: 20%;
+}
+.play-btn {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
+
+.card-header {
+  padding: 0px !important;
+}
+
+.tutorials-top {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tutorial-slides {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.tutorials {
+  padding-bottom: 100px;
+}
+
+.purple-text {
+  color: #C271FF;
+}
